@@ -55,6 +55,31 @@
 		B8E727D31D63174D007D34BD /* CYZAdCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E727D01D63174D007D34BD /* CYZAdCommon.framework */; };
 		B8E727D41D63174D007D34BD /* CYZUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E727D11D63174D007D34BD /* CYZUtil.framework */; };
 		B8E727D51D63174D007D34BD /* FOXSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E727D21D63174D007D34BD /* FOXSDK.framework */; };
+		B8E727DA1D631AAE007D34BD /* FOXTutorialEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA0FA1D586D3100CAF4AF /* FOXTutorialEvent.m */; };
+		B8E727DB1D631AAE007D34BD /* FOXExtensionBaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA0EF1D586D3100CAF4AF /* FOXExtensionBaseEvent.m */; };
+		B8E727DC1D631AAE007D34BD /* FOXLevelAchievedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA0F41D586D3100CAF4AF /* FOXLevelAchievedEvent.m */; };
+		B8E727DD1D631AAE007D34BD /* FOXSearchEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA0F81D586D3100CAF4AF /* FOXSearchEvent.m */; };
+		B8E727DE1D631AAE007D34BD /* FOXAddToCartEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA0F21D586D3100CAF4AF /* FOXAddToCartEvent.m */; };
+		B8E727DF1D631AAE007D34BD /* FOXViewListingEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA1001D586D3100CAF4AF /* FOXViewListingEvent.m */; };
+		B8E727E01D631AAE007D34BD /* FOXViewContentEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA0FE1D586D3100CAF4AF /* FOXViewContentEvent.m */; };
+		B8E727E11D631AAE007D34BD /* FOXViewCategoryEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA0FC1D586D3100CAF4AF /* FOXViewCategoryEvent.m */; };
+		B8E727E21D631AAE007D34BD /* FOXViewToppageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA1021D586D3100CAF4AF /* FOXViewToppageEvent.m */; };
+		B8E727E31D631AAE007D34BD /* FOXPurchaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA0F61D586D3100CAF4AF /* FOXPurchaseEvent.m */; };
+		B8E727E91D631AAE007D34BD /* FOXViewContentEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0FD1D586D3100CAF4AF /* FOXViewContentEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727EA1D631AAE007D34BD /* FOXExtensionBaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0EE1D586D3100CAF4AF /* FOXExtensionBaseEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727EB1D631AAE007D34BD /* FOXExtensionProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0F01D586D3100CAF4AF /* FOXExtensionProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727EC1D631AAE007D34BD /* FOXSearchEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0F71D586D3100CAF4AF /* FOXSearchEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727ED1D631AAE007D34BD /* FOXTutorialEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0F91D586D3100CAF4AF /* FOXTutorialEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727EE1D631AAE007D34BD /* FOXAddToCartEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0F11D586D3100CAF4AF /* FOXAddToCartEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727EF1D631AAE007D34BD /* FOXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B80752E81D421E6D00A80949 /* FOXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727F01D631AAE007D34BD /* FOXPurchaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0F51D586D3100CAF4AF /* FOXPurchaseEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727F11D631AAE007D34BD /* FOXViewListingEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0FF1D586D3100CAF4AF /* FOXViewListingEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727F21D631AAE007D34BD /* FOXViewToppageEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA1011D586D3100CAF4AF /* FOXViewToppageEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727F31D631AAE007D34BD /* FOXLevelAchievedEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0F31D586D3100CAF4AF /* FOXLevelAchievedEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727F41D631AAE007D34BD /* FOXViewCategoryEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0FB1D586D3100CAF4AF /* FOXViewCategoryEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E727FE1D631B45007D34BD /* CYZAdCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E727FB1D631B45007D34BD /* CYZAdCommon.framework */; };
+		B8E727FF1D631B45007D34BD /* CYZUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E727FC1D631B45007D34BD /* CYZUtil.framework */; };
+		B8E728001D631B45007D34BD /* FOXSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E727FD1D631B45007D34BD /* FOXSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +114,10 @@
 		B8E727D01D63174D007D34BD /* CYZAdCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYZAdCommon.framework; path = Carthage/Build/iOS/CYZAdCommon.framework; sourceTree = "<group>"; };
 		B8E727D11D63174D007D34BD /* CYZUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYZUtil.framework; path = Carthage/Build/iOS/CYZUtil.framework; sourceTree = "<group>"; };
 		B8E727D21D63174D007D34BD /* FOXSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FOXSDK.framework; path = Carthage/Build/iOS/FOXSDK.framework; sourceTree = "<group>"; };
+		B8E727F91D631AAE007D34BD /* FOXExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FOXExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E727FB1D631B45007D34BD /* CYZAdCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYZAdCommon.framework; path = Carthage/Build/tvOS/CYZAdCommon.framework; sourceTree = "<group>"; };
+		B8E727FC1D631B45007D34BD /* CYZUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYZUtil.framework; path = Carthage/Build/tvOS/CYZUtil.framework; sourceTree = "<group>"; };
+		B8E727FD1D631B45007D34BD /* FOXSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FOXSDK.framework; path = Carthage/Build/tvOS/FOXSDK.framework; sourceTree = "<group>"; };
 		E3A7F267655076CCDF6E47C9 /* Pods-FOXExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FOXExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-FOXExtension/Pods-FOXExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +137,16 @@
 				B8E727D31D63174D007D34BD /* CYZAdCommon.framework in Frameworks */,
 				B8E727D41D63174D007D34BD /* CYZUtil.framework in Frameworks */,
 				B8E727D51D63174D007D34BD /* FOXSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E727E41D631AAE007D34BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E727FE1D631B45007D34BD /* CYZAdCommon.framework in Frameworks */,
+				B8E727FF1D631B45007D34BD /* CYZUtil.framework in Frameworks */,
+				B8E728001D631B45007D34BD /* FOXSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +177,7 @@
 			children = (
 				B80752E51D421E6D00A80949 /* FOXExtension.framework */,
 				B81B88E01D46181400A62C59 /* FOXExtension.framework */,
+				B8E727F91D631AAE007D34BD /* FOXExtension.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +195,9 @@
 		B807531A1D4227C200A80949 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8E727FB1D631B45007D34BD /* CYZAdCommon.framework */,
+				B8E727FC1D631B45007D34BD /* CYZUtil.framework */,
+				B8E727FD1D631B45007D34BD /* FOXSDK.framework */,
 				B8E727D01D63174D007D34BD /* CYZAdCommon.framework */,
 				B8E727D11D63174D007D34BD /* CYZUtil.framework */,
 				B8E727D21D63174D007D34BD /* FOXSDK.framework */,
@@ -241,6 +284,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8E727E81D631AAE007D34BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E727E91D631AAE007D34BD /* FOXViewContentEvent.h in Headers */,
+				B8E727EA1D631AAE007D34BD /* FOXExtensionBaseEvent.h in Headers */,
+				B8E727EB1D631AAE007D34BD /* FOXExtensionProtocols.h in Headers */,
+				B8E727EC1D631AAE007D34BD /* FOXSearchEvent.h in Headers */,
+				B8E727ED1D631AAE007D34BD /* FOXTutorialEvent.h in Headers */,
+				B8E727EE1D631AAE007D34BD /* FOXAddToCartEvent.h in Headers */,
+				B8E727EF1D631AAE007D34BD /* FOXExtension.h in Headers */,
+				B8E727F01D631AAE007D34BD /* FOXPurchaseEvent.h in Headers */,
+				B8E727F11D631AAE007D34BD /* FOXViewListingEvent.h in Headers */,
+				B8E727F21D631AAE007D34BD /* FOXViewToppageEvent.h in Headers */,
+				B8E727F31D631AAE007D34BD /* FOXLevelAchievedEvent.h in Headers */,
+				B8E727F41D631AAE007D34BD /* FOXViewCategoryEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -282,6 +344,24 @@
 			productReference = B81B88E01D46181400A62C59 /* FOXExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B8E727D81D631AAE007D34BD /* FOXExtensionTvDy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E727F61D631AAE007D34BD /* Build configuration list for PBXNativeTarget "FOXExtensionTvDy" */;
+			buildPhases = (
+				B8E727D91D631AAE007D34BD /* Sources */,
+				B8E727E41D631AAE007D34BD /* Frameworks */,
+				B8E727E81D631AAE007D34BD /* Headers */,
+				B8E727F51D631AAE007D34BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FOXExtensionTvDy;
+			productName = FOXExtensionDy;
+			productReference = B8E727F91D631AAE007D34BD /* FOXExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -316,6 +396,7 @@
 			targets = (
 				B80752E41D421E6D00A80949 /* FOXExtension */,
 				B81B88DF1D46181400A62C59 /* FOXExtensionDy */,
+				B8E727D81D631AAE007D34BD /* FOXExtensionTvDy */,
 			);
 		};
 /* End PBXProject section */
@@ -329,6 +410,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B81B88DE1D46181400A62C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E727F51D631AAE007D34BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,6 +490,23 @@
 				B86FA1201D586D3100CAF4AF /* FOXViewCategoryEvent.m in Sources */,
 				B86FA12C1D586D3100CAF4AF /* FOXViewToppageEvent.m in Sources */,
 				B86FA1141D586D3100CAF4AF /* FOXPurchaseEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E727D91D631AAE007D34BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E727DA1D631AAE007D34BD /* FOXTutorialEvent.m in Sources */,
+				B8E727DB1D631AAE007D34BD /* FOXExtensionBaseEvent.m in Sources */,
+				B8E727DC1D631AAE007D34BD /* FOXLevelAchievedEvent.m in Sources */,
+				B8E727DD1D631AAE007D34BD /* FOXSearchEvent.m in Sources */,
+				B8E727DE1D631AAE007D34BD /* FOXAddToCartEvent.m in Sources */,
+				B8E727DF1D631AAE007D34BD /* FOXViewListingEvent.m in Sources */,
+				B8E727E01D631AAE007D34BD /* FOXViewContentEvent.m in Sources */,
+				B8E727E11D631AAE007D34BD /* FOXViewCategoryEvent.m in Sources */,
+				B8E727E21D631AAE007D34BD /* FOXViewToppageEvent.m in Sources */,
+				B8E727E31D631AAE007D34BD /* FOXPurchaseEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +691,54 @@
 			};
 			name = Release;
 		};
+		B8E727F71D631AAE007D34BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = FOXExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.FOXExtensionDy;
+				PRODUCT_NAME = FOXExtension;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		B8E727F81D631AAE007D34BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = FOXExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.FOXExtensionDy;
+				PRODUCT_NAME = FOXExtension;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -612,6 +765,15 @@
 			buildConfigurations = (
 				B81B88E61D46181400A62C59 /* Debug */,
 				B81B88E71D46181400A62C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E727F61D631AAE007D34BD /* Build configuration list for PBXNativeTarget "FOXExtensionTvDy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E727F71D631AAE007D34BD /* Debug */,
+				B8E727F81D631AAE007D34BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
