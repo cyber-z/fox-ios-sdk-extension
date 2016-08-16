@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B8E727D81D631AAE007D34BD"
-               BuildableName = "FOXExtensionTvDy.framework"
+               BuildableName = "FOXExtension.framework"
                BlueprintName = "FOXExtensionTvDy"
                ReferencedContainer = "container:FOXExtension.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8E727D81D631AAE007D34BD"
-            BuildableName = "FOXExtensionTvDy.framework"
+            BuildableName = "FOXExtension.framework"
             BlueprintName = "FOXExtensionTvDy"
             ReferencedContainer = "container:FOXExtension.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8E727D81D631AAE007D34BD"
-            BuildableName = "FOXExtensionTvDy.framework"
+            BuildableName = "FOXExtension.framework"
             BlueprintName = "FOXExtensionTvDy"
             ReferencedContainer = "container:FOXExtension.xcodeproj">
          </BuildableReference>
