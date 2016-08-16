@@ -10,9 +10,6 @@
 		10CC5C5D46A68B556B03EB96 /* libPods-FOXExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0325AE4CE4FAA84405AB7F5F /* libPods-FOXExtension.a */; };
 		B80752EA1D421E6D00A80949 /* FOXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B80752E81D421E6D00A80949 /* FOXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B81B88E81D46188400A62C59 /* FOXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B80752E81D421E6D00A80949 /* FOXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B83571801D5DB54F00EB528B /* CYZAdCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B835717D1D5DB54F00EB528B /* CYZAdCommon.framework */; };
-		B83571811D5DB54F00EB528B /* CYZUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B835717E1D5DB54F00EB528B /* CYZUtil.framework */; };
-		B83571821D5DB54F00EB528B /* FOXSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B835717F1D5DB54F00EB528B /* FOXSDK.framework */; };
 		B86FA1031D586D3100CAF4AF /* FOXExtensionBaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0EE1D586D3100CAF4AF /* FOXExtensionBaseEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B86FA1041D586D3100CAF4AF /* FOXExtensionBaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA0EE1D586D3100CAF4AF /* FOXExtensionBaseEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B86FA1051D586D3100CAF4AF /* FOXExtensionBaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA0EF1D586D3100CAF4AF /* FOXExtensionBaseEvent.m */; };
@@ -55,6 +52,9 @@
 		B86FA12A1D586D3100CAF4AF /* FOXViewToppageEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FA1011D586D3100CAF4AF /* FOXViewToppageEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B86FA12B1D586D3100CAF4AF /* FOXViewToppageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA1021D586D3100CAF4AF /* FOXViewToppageEvent.m */; };
 		B86FA12C1D586D3100CAF4AF /* FOXViewToppageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FA1021D586D3100CAF4AF /* FOXViewToppageEvent.m */; };
+		B8E727D31D63174D007D34BD /* CYZAdCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E727D01D63174D007D34BD /* CYZAdCommon.framework */; };
+		B8E727D41D63174D007D34BD /* CYZUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E727D11D63174D007D34BD /* CYZUtil.framework */; };
+		B8E727D51D63174D007D34BD /* FOXSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E727D21D63174D007D34BD /* FOXSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,9 +65,6 @@
 		B80752E91D421E6D00A80949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B807531B1D4227C200A80949 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		B81B88E01D46181400A62C59 /* FOXExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FOXExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B835717D1D5DB54F00EB528B /* CYZAdCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYZAdCommon.framework; path = Carthage/Build/iOS/CYZAdCommon.framework; sourceTree = "<group>"; };
-		B835717E1D5DB54F00EB528B /* CYZUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYZUtil.framework; path = Carthage/Build/iOS/CYZUtil.framework; sourceTree = "<group>"; };
-		B835717F1D5DB54F00EB528B /* FOXSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FOXSDK.framework; path = Carthage/Build/iOS/FOXSDK.framework; sourceTree = "<group>"; };
 		B86FA0EE1D586D3100CAF4AF /* FOXExtensionBaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXExtensionBaseEvent.h; sourceTree = "<group>"; };
 		B86FA0EF1D586D3100CAF4AF /* FOXExtensionBaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXExtensionBaseEvent.m; sourceTree = "<group>"; };
 		B86FA0F01D586D3100CAF4AF /* FOXExtensionProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXExtensionProtocols.h; sourceTree = "<group>"; };
@@ -89,6 +86,9 @@
 		B86FA1001D586D3100CAF4AF /* FOXViewListingEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXViewListingEvent.m; sourceTree = "<group>"; };
 		B86FA1011D586D3100CAF4AF /* FOXViewToppageEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXViewToppageEvent.h; sourceTree = "<group>"; };
 		B86FA1021D586D3100CAF4AF /* FOXViewToppageEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXViewToppageEvent.m; sourceTree = "<group>"; };
+		B8E727D01D63174D007D34BD /* CYZAdCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYZAdCommon.framework; path = Carthage/Build/iOS/CYZAdCommon.framework; sourceTree = "<group>"; };
+		B8E727D11D63174D007D34BD /* CYZUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CYZUtil.framework; path = Carthage/Build/iOS/CYZUtil.framework; sourceTree = "<group>"; };
+		B8E727D21D63174D007D34BD /* FOXSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FOXSDK.framework; path = Carthage/Build/iOS/FOXSDK.framework; sourceTree = "<group>"; };
 		E3A7F267655076CCDF6E47C9 /* Pods-FOXExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FOXExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-FOXExtension/Pods-FOXExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,9 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B83571801D5DB54F00EB528B /* CYZAdCommon.framework in Frameworks */,
-				B83571811D5DB54F00EB528B /* CYZUtil.framework in Frameworks */,
-				B83571821D5DB54F00EB528B /* FOXSDK.framework in Frameworks */,
+				B8E727D31D63174D007D34BD /* CYZAdCommon.framework in Frameworks */,
+				B8E727D41D63174D007D34BD /* CYZUtil.framework in Frameworks */,
+				B8E727D51D63174D007D34BD /* FOXSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,9 +155,9 @@
 		B807531A1D4227C200A80949 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B835717D1D5DB54F00EB528B /* CYZAdCommon.framework */,
-				B835717E1D5DB54F00EB528B /* CYZUtil.framework */,
-				B835717F1D5DB54F00EB528B /* FOXSDK.framework */,
+				B8E727D01D63174D007D34BD /* CYZAdCommon.framework */,
+				B8E727D11D63174D007D34BD /* CYZUtil.framework */,
+				B8E727D21D63174D007D34BD /* FOXSDK.framework */,
 				B807531B1D4227C200A80949 /* StoreKit.framework */,
 				0325AE4CE4FAA84405AB7F5F /* libPods-FOXExtension.a */,
 			);
