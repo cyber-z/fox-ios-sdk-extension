@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85731996F473D052753DFE86 /* Pods_CYZFoxExtDy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA08F1887202EC24F6C77FB9 /* Pods_CYZFoxExtDy.framework */; };
+		B8B9D5311D7D417700EB06A5 /* CYZFoxExt.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5301D7D417700EB06A5 /* CYZFoxExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B9D54F1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D53A1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.h */; };
+		B8B9D5501D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D53B1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.m */; };
+		B8B9D5511D7D454500EB06A5 /* CYZFoxExtensionProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D53C1D7D454500EB06A5 /* CYZFoxExtensionProtocols.h */; };
+		B8B9D5521D7D454500EB06A5 /* CYZFoxAddToCartEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D53D1D7D454500EB06A5 /* CYZFoxAddToCartEvent.h */; };
+		B8B9D5531D7D454500EB06A5 /* CYZFoxAddToCartEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D53E1D7D454500EB06A5 /* CYZFoxAddToCartEvent.m */; };
+		B8B9D5541D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D53F1D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.h */; };
+		B8B9D5551D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5401D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.m */; };
+		B8B9D5561D7D454500EB06A5 /* CYZFoxPurchaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5411D7D454500EB06A5 /* CYZFoxPurchaseEvent.h */; };
+		B8B9D5571D7D454500EB06A5 /* CYZFoxPurchaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5421D7D454500EB06A5 /* CYZFoxPurchaseEvent.m */; };
+		B8B9D5581D7D454500EB06A5 /* CYZFoxSearchEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5431D7D454500EB06A5 /* CYZFoxSearchEvent.h */; };
+		B8B9D5591D7D454500EB06A5 /* CYZFoxSearchEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5441D7D454500EB06A5 /* CYZFoxSearchEvent.m */; };
+		B8B9D55A1D7D454500EB06A5 /* CYZFoxTutorialEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5451D7D454500EB06A5 /* CYZFoxTutorialEvent.h */; };
+		B8B9D55B1D7D454500EB06A5 /* CYZFoxTutorialEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5461D7D454500EB06A5 /* CYZFoxTutorialEvent.m */; };
+		B8B9D55C1D7D454500EB06A5 /* CYZFoxViewCategoryEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5471D7D454500EB06A5 /* CYZFoxViewCategoryEvent.h */; };
+		B8B9D55D1D7D454500EB06A5 /* CYZFoxViewCategoryEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5481D7D454500EB06A5 /* CYZFoxViewCategoryEvent.m */; };
+		B8B9D55E1D7D454500EB06A5 /* CYZFoxViewContentEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5491D7D454500EB06A5 /* CYZFoxViewContentEvent.h */; };
+		B8B9D55F1D7D454500EB06A5 /* CYZFoxViewContentEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D54A1D7D454500EB06A5 /* CYZFoxViewContentEvent.m */; };
+		B8B9D5601D7D454500EB06A5 /* CYZFoxViewListingEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D54B1D7D454500EB06A5 /* CYZFoxViewListingEvent.h */; };
+		B8B9D5611D7D454500EB06A5 /* CYZFoxViewListingEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D54C1D7D454500EB06A5 /* CYZFoxViewListingEvent.m */; };
+		B8B9D5621D7D454500EB06A5 /* CYZFoxViewToppageEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D54D1D7D454500EB06A5 /* CYZFoxViewToppageEvent.h */; };
+		B8B9D5631D7D454500EB06A5 /* CYZFoxViewToppageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D54E1D7D454500EB06A5 /* CYZFoxViewToppageEvent.m */; };
+		B8B9D5671D7D46ED00EB06A5 /* CYZFoxPurchaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5421D7D454500EB06A5 /* CYZFoxPurchaseEvent.m */; };
+		B8B9D5681D7D46ED00EB06A5 /* CYZFoxViewToppageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D54E1D7D454500EB06A5 /* CYZFoxViewToppageEvent.m */; };
+		B8B9D5691D7D46ED00EB06A5 /* CYZFoxViewListingEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D54C1D7D454500EB06A5 /* CYZFoxViewListingEvent.m */; };
+		B8B9D56A1D7D46ED00EB06A5 /* CYZFoxAddToCartEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D53E1D7D454500EB06A5 /* CYZFoxAddToCartEvent.m */; };
+		B8B9D56B1D7D46ED00EB06A5 /* CYZFoxLevelAchievedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5401D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.m */; };
+		B8B9D56C1D7D46ED00EB06A5 /* CYZFoxTutorialEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5461D7D454500EB06A5 /* CYZFoxTutorialEvent.m */; };
+		B8B9D56D1D7D46ED00EB06A5 /* CYZFoxExtensionBaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D53B1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.m */; };
+		B8B9D56E1D7D46ED00EB06A5 /* CYZFoxSearchEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5441D7D454500EB06A5 /* CYZFoxSearchEvent.m */; };
+		B8B9D56F1D7D46ED00EB06A5 /* CYZFoxViewContentEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D54A1D7D454500EB06A5 /* CYZFoxViewContentEvent.m */; };
+		B8B9D5701D7D46ED00EB06A5 /* CYZFoxViewCategoryEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B9D5481D7D454500EB06A5 /* CYZFoxViewCategoryEvent.m */; };
+		B8B9D5741D7D46ED00EB06A5 /* CYZFoxViewListingEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D54B1D7D454500EB06A5 /* CYZFoxViewListingEvent.h */; };
+		B8B9D5751D7D46ED00EB06A5 /* CYZFoxExtensionProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D53C1D7D454500EB06A5 /* CYZFoxExtensionProtocols.h */; };
+		B8B9D5761D7D46ED00EB06A5 /* CYZFoxViewToppageEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D54D1D7D454500EB06A5 /* CYZFoxViewToppageEvent.h */; };
+		B8B9D5771D7D46ED00EB06A5 /* CYZFoxSearchEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5431D7D454500EB06A5 /* CYZFoxSearchEvent.h */; };
+		B8B9D5781D7D46ED00EB06A5 /* CYZFoxLevelAchievedEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D53F1D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.h */; };
+		B8B9D5791D7D46ED00EB06A5 /* CYZFoxExt.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5301D7D417700EB06A5 /* CYZFoxExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B9D57A1D7D46ED00EB06A5 /* CYZFoxTutorialEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5451D7D454500EB06A5 /* CYZFoxTutorialEvent.h */; };
+		B8B9D57B1D7D46ED00EB06A5 /* CYZFoxViewContentEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5491D7D454500EB06A5 /* CYZFoxViewContentEvent.h */; };
+		B8B9D57C1D7D46ED00EB06A5 /* CYZFoxExtensionBaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D53A1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.h */; };
+		B8B9D57D1D7D46ED00EB06A5 /* CYZFoxViewCategoryEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5471D7D454500EB06A5 /* CYZFoxViewCategoryEvent.h */; };
+		B8B9D57E1D7D46ED00EB06A5 /* CYZFoxAddToCartEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D53D1D7D454500EB06A5 /* CYZFoxAddToCartEvent.h */; };
+		B8B9D57F1D7D46ED00EB06A5 /* CYZFoxPurchaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B9D5411D7D454500EB06A5 /* CYZFoxPurchaseEvent.h */; };
+		FC023DCACCF6C7CF689F1825 /* Pods_CYZFoxExtTvDy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513259CC32247708DF0363E7 /* Pods_CYZFoxExtTvDy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3657867B71158101DCD29092 /* libPods-CYZFoxExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYZFoxExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513259CC32247708DF0363E7 /* Pods_CYZFoxExtTvDy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYZFoxExtTvDy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6865815A65C0B3D2AE46D7A8 /* Pods-CYZFoxExtDy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYZFoxExtDy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYZFoxExtDy/Pods-CYZFoxExtDy.release.xcconfig"; sourceTree = "<group>"; };
+		8BDA4CADFFE8423BC276DCB5 /* Pods-CYZFoxExtTvDy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYZFoxExtTvDy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYZFoxExtTvDy/Pods-CYZFoxExtTvDy.debug.xcconfig"; sourceTree = "<group>"; };
+		B8B9D52D1D7D417700EB06A5 /* CYZFoxExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CYZFoxExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B9D5301D7D417700EB06A5 /* CYZFoxExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYZFoxExt.h; sourceTree = "<group>"; };
+		B8B9D5321D7D417700EB06A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B9D53A1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxExtensionBaseEvent.h; sourceTree = "<group>"; };
+		B8B9D53B1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxExtensionBaseEvent.m; sourceTree = "<group>"; };
+		B8B9D53C1D7D454500EB06A5 /* CYZFoxExtensionProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxExtensionProtocols.h; sourceTree = "<group>"; };
+		B8B9D53D1D7D454500EB06A5 /* CYZFoxAddToCartEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxAddToCartEvent.h; sourceTree = "<group>"; };
+		B8B9D53E1D7D454500EB06A5 /* CYZFoxAddToCartEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxAddToCartEvent.m; sourceTree = "<group>"; };
+		B8B9D53F1D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxLevelAchievedEvent.h; sourceTree = "<group>"; };
+		B8B9D5401D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxLevelAchievedEvent.m; sourceTree = "<group>"; };
+		B8B9D5411D7D454500EB06A5 /* CYZFoxPurchaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxPurchaseEvent.h; sourceTree = "<group>"; };
+		B8B9D5421D7D454500EB06A5 /* CYZFoxPurchaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxPurchaseEvent.m; sourceTree = "<group>"; };
+		B8B9D5431D7D454500EB06A5 /* CYZFoxSearchEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxSearchEvent.h; sourceTree = "<group>"; };
+		B8B9D5441D7D454500EB06A5 /* CYZFoxSearchEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxSearchEvent.m; sourceTree = "<group>"; };
+		B8B9D5451D7D454500EB06A5 /* CYZFoxTutorialEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxTutorialEvent.h; sourceTree = "<group>"; };
+		B8B9D5461D7D454500EB06A5 /* CYZFoxTutorialEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxTutorialEvent.m; sourceTree = "<group>"; };
+		B8B9D5471D7D454500EB06A5 /* CYZFoxViewCategoryEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxViewCategoryEvent.h; sourceTree = "<group>"; };
+		B8B9D5481D7D454500EB06A5 /* CYZFoxViewCategoryEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxViewCategoryEvent.m; sourceTree = "<group>"; };
+		B8B9D5491D7D454500EB06A5 /* CYZFoxViewContentEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxViewContentEvent.h; sourceTree = "<group>"; };
+		B8B9D54A1D7D454500EB06A5 /* CYZFoxViewContentEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxViewContentEvent.m; sourceTree = "<group>"; };
+		B8B9D54B1D7D454500EB06A5 /* CYZFoxViewListingEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxViewListingEvent.h; sourceTree = "<group>"; };
+		B8B9D54C1D7D454500EB06A5 /* CYZFoxViewListingEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxViewListingEvent.m; sourceTree = "<group>"; };
+		B8B9D54D1D7D454500EB06A5 /* CYZFoxViewToppageEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZFoxViewToppageEvent.h; sourceTree = "<group>"; };
+		B8B9D54E1D7D454500EB06A5 /* CYZFoxViewToppageEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxViewToppageEvent.m; sourceTree = "<group>"; };
+		B8B9D5851D7D46ED00EB06A5 /* CYZFoxExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CYZFoxExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA08F1887202EC24F6C77FB9 /* Pods_CYZFoxExtDy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYZFoxExtDy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1FE3F74D309448D096D92A /* Pods-CYZFoxExtDy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYZFoxExtDy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYZFoxExtDy/Pods-CYZFoxExtDy.debug.xcconfig"; sourceTree = "<group>"; };
+		FB4689EC288FA7DBDB34A50E /* Pods-CYZFoxExtTvDy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYZFoxExtTvDy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYZFoxExtTvDy/Pods-CYZFoxExtTvDy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8B9D5291D7D417700EB06A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85731996F473D052753DFE86 /* Pods_CYZFoxExtDy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B9D5711D7D46ED00EB06A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC023DCACCF6C7CF689F1825 /* Pods_CYZFoxExtTvDy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F0D969C5C315CAAC4FAB568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC1FE3F74D309448D096D92A /* Pods-CYZFoxExtDy.debug.xcconfig */,
+				6865815A65C0B3D2AE46D7A8 /* Pods-CYZFoxExtDy.release.xcconfig */,
+				8BDA4CADFFE8423BC276DCB5 /* Pods-CYZFoxExtTvDy.debug.xcconfig */,
+				FB4689EC288FA7DBDB34A50E /* Pods-CYZFoxExtTvDy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8B9D5231D7D417700EB06A5 = {
+			isa = PBXGroup;
+			children = (
+				B8B9D52F1D7D417700EB06A5 /* CYZFoxExtension */,
+				B8B9D52E1D7D417700EB06A5 /* Products */,
+				4F0D969C5C315CAAC4FAB568 /* Pods */,
+				DEA54ED80061A08ED883D528 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B9D52E1D7D417700EB06A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B9D52D1D7D417700EB06A5 /* CYZFoxExt.framework */,
+				B8B9D5851D7D46ED00EB06A5 /* CYZFoxExt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B9D52F1D7D417700EB06A5 /* CYZFoxExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B8B9D5381D7D454500EB06A5 /* Events */,
+				B8B9D5301D7D417700EB06A5 /* CYZFoxExt.h */,
+				B8B9D5321D7D417700EB06A5 /* Info.plist */,
+			);
+			path = CYZFoxExtension;
+			sourceTree = "<group>";
+		};
+		B8B9D5381D7D454500EB06A5 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				B8B9D5391D7D454500EB06A5 /* Base */,
+				B8B9D53D1D7D454500EB06A5 /* CYZFoxAddToCartEvent.h */,
+				B8B9D53E1D7D454500EB06A5 /* CYZFoxAddToCartEvent.m */,
+				B8B9D53F1D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.h */,
+				B8B9D5401D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.m */,
+				B8B9D5411D7D454500EB06A5 /* CYZFoxPurchaseEvent.h */,
+				B8B9D5421D7D454500EB06A5 /* CYZFoxPurchaseEvent.m */,
+				B8B9D5431D7D454500EB06A5 /* CYZFoxSearchEvent.h */,
+				B8B9D5441D7D454500EB06A5 /* CYZFoxSearchEvent.m */,
+				B8B9D5451D7D454500EB06A5 /* CYZFoxTutorialEvent.h */,
+				B8B9D5461D7D454500EB06A5 /* CYZFoxTutorialEvent.m */,
+				B8B9D5471D7D454500EB06A5 /* CYZFoxViewCategoryEvent.h */,
+				B8B9D5481D7D454500EB06A5 /* CYZFoxViewCategoryEvent.m */,
+				B8B9D5491D7D454500EB06A5 /* CYZFoxViewContentEvent.h */,
+				B8B9D54A1D7D454500EB06A5 /* CYZFoxViewContentEvent.m */,
+				B8B9D54B1D7D454500EB06A5 /* CYZFoxViewListingEvent.h */,
+				B8B9D54C1D7D454500EB06A5 /* CYZFoxViewListingEvent.m */,
+				B8B9D54D1D7D454500EB06A5 /* CYZFoxViewToppageEvent.h */,
+				B8B9D54E1D7D454500EB06A5 /* CYZFoxViewToppageEvent.m */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		B8B9D5391D7D454500EB06A5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B8B9D53A1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.h */,
+				B8B9D53B1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.m */,
+				B8B9D53C1D7D454500EB06A5 /* CYZFoxExtensionProtocols.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DEA54ED80061A08ED883D528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3657867B71158101DCD29092 /* libPods-CYZFoxExtension.a */,
+				BA08F1887202EC24F6C77FB9 /* Pods_CYZFoxExtDy.framework */,
+				513259CC32247708DF0363E7 /* Pods_CYZFoxExtTvDy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8B9D52A1D7D417700EB06A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B9D5601D7D454500EB06A5 /* CYZFoxViewListingEvent.h in Headers */,
+				B8B9D5511D7D454500EB06A5 /* CYZFoxExtensionProtocols.h in Headers */,
+				B8B9D5621D7D454500EB06A5 /* CYZFoxViewToppageEvent.h in Headers */,
+				B8B9D5581D7D454500EB06A5 /* CYZFoxSearchEvent.h in Headers */,
+				B8B9D5541D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.h in Headers */,
+				B8B9D5311D7D417700EB06A5 /* CYZFoxExt.h in Headers */,
+				B8B9D55A1D7D454500EB06A5 /* CYZFoxTutorialEvent.h in Headers */,
+				B8B9D55E1D7D454500EB06A5 /* CYZFoxViewContentEvent.h in Headers */,
+				B8B9D54F1D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.h in Headers */,
+				B8B9D55C1D7D454500EB06A5 /* CYZFoxViewCategoryEvent.h in Headers */,
+				B8B9D5521D7D454500EB06A5 /* CYZFoxAddToCartEvent.h in Headers */,
+				B8B9D5561D7D454500EB06A5 /* CYZFoxPurchaseEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B9D5731D7D46ED00EB06A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B9D5741D7D46ED00EB06A5 /* CYZFoxViewListingEvent.h in Headers */,
+				B8B9D5751D7D46ED00EB06A5 /* CYZFoxExtensionProtocols.h in Headers */,
+				B8B9D5761D7D46ED00EB06A5 /* CYZFoxViewToppageEvent.h in Headers */,
+				B8B9D5771D7D46ED00EB06A5 /* CYZFoxSearchEvent.h in Headers */,
+				B8B9D5781D7D46ED00EB06A5 /* CYZFoxLevelAchievedEvent.h in Headers */,
+				B8B9D5791D7D46ED00EB06A5 /* CYZFoxExt.h in Headers */,
+				B8B9D57A1D7D46ED00EB06A5 /* CYZFoxTutorialEvent.h in Headers */,
+				B8B9D57B1D7D46ED00EB06A5 /* CYZFoxViewContentEvent.h in Headers */,
+				B8B9D57C1D7D46ED00EB06A5 /* CYZFoxExtensionBaseEvent.h in Headers */,
+				B8B9D57D1D7D46ED00EB06A5 /* CYZFoxViewCategoryEvent.h in Headers */,
+				B8B9D57E1D7D46ED00EB06A5 /* CYZFoxAddToCartEvent.h in Headers */,
+				B8B9D57F1D7D46ED00EB06A5 /* CYZFoxPurchaseEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B8B9D52C1D7D417700EB06A5 /* CYZFoxExtDy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B9D5351D7D417700EB06A5 /* Build configuration list for PBXNativeTarget "CYZFoxExtDy" */;
+			buildPhases = (
+				11FEBC1EDE0E019B7B15E48F /* [CP] Check Pods Manifest.lock */,
+				B8B9D5281D7D417700EB06A5 /* Sources */,
+				B8B9D5291D7D417700EB06A5 /* Frameworks */,
+				B8B9D52A1D7D417700EB06A5 /* Headers */,
+				B8B9D52B1D7D417700EB06A5 /* Resources */,
+				2B2E641E8C64674A7079F4FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYZFoxExtDy;
+			productName = CYZFoxExtension;
+			productReference = B8B9D52D1D7D417700EB06A5 /* CYZFoxExt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8B9D5641D7D46ED00EB06A5 /* CYZFoxExtTvDy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B9D5821D7D46ED00EB06A5 /* Build configuration list for PBXNativeTarget "CYZFoxExtTvDy" */;
+			buildPhases = (
+				B8B9D5651D7D46ED00EB06A5 /* [CP] Check Pods Manifest.lock */,
+				B8B9D5661D7D46ED00EB06A5 /* Sources */,
+				B8B9D5711D7D46ED00EB06A5 /* Frameworks */,
+				B8B9D5731D7D46ED00EB06A5 /* Headers */,
+				B8B9D5801D7D46ED00EB06A5 /* Resources */,
+				B8B9D5811D7D46ED00EB06A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYZFoxExtTvDy;
+			productName = CYZFoxExtension;
+			productReference = B8B9D5851D7D46ED00EB06A5 /* CYZFoxExt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8B9D5241D7D417700EB06A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CyberZ;
+				TargetAttributes = {
+					B8B9D52C1D7D417700EB06A5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B8B9D5271D7D417700EB06A5 /* Build configuration list for PBXProject "CYZFoxExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8B9D5231D7D417700EB06A5;
+			productRefGroup = B8B9D52E1D7D417700EB06A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8B9D52C1D7D417700EB06A5 /* CYZFoxExtDy */,
+				B8B9D5641D7D46ED00EB06A5 /* CYZFoxExtTvDy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B9D52B1D7D417700EB06A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B9D5801D7D46ED00EB06A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FEBC1EDE0E019B7B15E48F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B2E641E8C64674A7079F4FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYZFoxExtDy/Pods-CYZFoxExtDy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B9D5651D7D46ED00EB06A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B9D5811D7D46ED00EB06A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYZFoxExtTvDy/Pods-CYZFoxExtTvDy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8B9D5281D7D417700EB06A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B9D5571D7D454500EB06A5 /* CYZFoxPurchaseEvent.m in Sources */,
+				B8B9D5631D7D454500EB06A5 /* CYZFoxViewToppageEvent.m in Sources */,
+				B8B9D5611D7D454500EB06A5 /* CYZFoxViewListingEvent.m in Sources */,
+				B8B9D5531D7D454500EB06A5 /* CYZFoxAddToCartEvent.m in Sources */,
+				B8B9D5551D7D454500EB06A5 /* CYZFoxLevelAchievedEvent.m in Sources */,
+				B8B9D55B1D7D454500EB06A5 /* CYZFoxTutorialEvent.m in Sources */,
+				B8B9D5501D7D454500EB06A5 /* CYZFoxExtensionBaseEvent.m in Sources */,
+				B8B9D5591D7D454500EB06A5 /* CYZFoxSearchEvent.m in Sources */,
+				B8B9D55F1D7D454500EB06A5 /* CYZFoxViewContentEvent.m in Sources */,
+				B8B9D55D1D7D454500EB06A5 /* CYZFoxViewCategoryEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B9D5661D7D46ED00EB06A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B9D5671D7D46ED00EB06A5 /* CYZFoxPurchaseEvent.m in Sources */,
+				B8B9D5681D7D46ED00EB06A5 /* CYZFoxViewToppageEvent.m in Sources */,
+				B8B9D5691D7D46ED00EB06A5 /* CYZFoxViewListingEvent.m in Sources */,
+				B8B9D56A1D7D46ED00EB06A5 /* CYZFoxAddToCartEvent.m in Sources */,
+				B8B9D56B1D7D46ED00EB06A5 /* CYZFoxLevelAchievedEvent.m in Sources */,
+				B8B9D56C1D7D46ED00EB06A5 /* CYZFoxTutorialEvent.m in Sources */,
+				B8B9D56D1D7D46ED00EB06A5 /* CYZFoxExtensionBaseEvent.m in Sources */,
+				B8B9D56E1D7D46ED00EB06A5 /* CYZFoxSearchEvent.m in Sources */,
+				B8B9D56F1D7D46ED00EB06A5 /* CYZFoxViewContentEvent.m in Sources */,
+				B8B9D5701D7D46ED00EB06A5 /* CYZFoxViewCategoryEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8B9D5331D7D417700EB06A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8B9D5341D7D417700EB06A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8B9D5361D7D417700EB06A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1FE3F74D309448D096D92A /* Pods-CYZFoxExtDy.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CYZFoxExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.CYZFoxExtension;
+				PRODUCT_NAME = CYZFoxExt;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B8B9D5371D7D417700EB06A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6865815A65C0B3D2AE46D7A8 /* Pods-CYZFoxExtDy.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CYZFoxExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.CYZFoxExtension;
+				PRODUCT_NAME = CYZFoxExt;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B8B9D5831D7D46ED00EB06A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDA4CADFFE8423BC276DCB5 /* Pods-CYZFoxExtTvDy.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CYZFoxExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.CYZFoxExtension;
+				PRODUCT_NAME = CYZFoxExt;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		B8B9D5841D7D46ED00EB06A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4689EC288FA7DBDB34A50E /* Pods-CYZFoxExtTvDy.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CYZFoxExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.CYZFoxExtension;
+				PRODUCT_NAME = CYZFoxExt;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8B9D5271D7D417700EB06A5 /* Build configuration list for PBXProject "CYZFoxExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B9D5331D7D417700EB06A5 /* Debug */,
+				B8B9D5341D7D417700EB06A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B9D5351D7D417700EB06A5 /* Build configuration list for PBXNativeTarget "CYZFoxExtDy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B9D5361D7D417700EB06A5 /* Debug */,
+				B8B9D5371D7D417700EB06A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B9D5821D7D46ED00EB06A5 /* Build configuration list for PBXNativeTarget "CYZFoxExtTvDy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B9D5831D7D46ED00EB06A5 /* Debug */,
+				B8B9D5841D7D46ED00EB06A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8B9D5241D7D417700EB06A5 /* Project object */;
+}
