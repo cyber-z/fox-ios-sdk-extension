@@ -1,27 +1,27 @@
 //
-//  FOXPurchaseEvent.h
-//  FOXExtension
+//  CYZFoxPurchaseEvent.h
+//  CYZFoxExtension
 //
 //  Created by Wuwei on 2016/07/22.
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 
-#import "FOXExtensionBaseEvent.h"
+#import "CYZFoxExtensionBaseEvent.h"
 #import <StoreKit/StoreKit.h>
 
 #define kReceiptValidTrue @"true"
 #define kReceiptValidFalse @"false"
 
-@interface FOXPurchaseEvent : FOXExtensionBaseEvent
+@interface CYZFoxPurchaseEvent : CYZFoxExtensionBaseEvent
 <
-FOXExFacebookEventDelegate,
-FOXExTwitterEventDelegate,
-FOXExCriteoEventDelegate,
-FOXExVizuryEventDelegate,
-FOXExDynamicRemarketingEventDelegate,
-FOXExDynalystCommerceEventDelegate,
-FOXExDynalystGamesEventDelegate,
-FOXExChartBoostEventDelegate
+CYZFoxFacebookEventDelegate,
+CYZFoxTwitterEventDelegate,
+CYZFoxCriteoEventDelegate,
+CYZFoxVizuryEventDelegate,
+CYZFoxDynamicRemarketingEventDelegate,
+CYZFoxDynalystCommerceEventDelegate,
+CYZFoxDynalystGamesEventDelegate,
+CYZFoxChartBoostEventDelegate
 >
 
 /** @name Instance Method */
@@ -37,7 +37,7 @@ FOXExChartBoostEventDelegate
 
 /**
  * Create event with default eventName, specified ltvId and purchase detail.
- * @param ltvId         LTV identifier given by FOX
+ * @param ltvId         LTV identifier given by CYZFox
  * @param transaction   StoreKit payment transaction
  * @param product       StoreKit product detail
  */
@@ -60,7 +60,7 @@ FOXExChartBoostEventDelegate
 
 /**
  * Create event with default eventName, specified ltvId and purchase detail.
- * @param ltvId         LTV identifier given by FOX
+ * @param ltvId         LTV identifier given by CYZFox
  * @param itemName      Name of item
  * @param sku           SKU
  * @param price         Price

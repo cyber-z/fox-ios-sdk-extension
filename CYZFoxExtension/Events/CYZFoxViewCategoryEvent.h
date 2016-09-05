@@ -1,19 +1,18 @@
 //
-//  FOXTutorialEvent.h
-//  FOXExtension
+//  CYZFoxViewCategoryEvent.h
+//  CYZFoxExtension
 //
-//  Created by Wuwei on 2016/07/22.
+//  Created by Wuwei on 2016/08/02.
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 
-#import "FOXExtension.h"
+#import "CYZFoxExtensionBaseEvent.h"
 
-@interface FOXTutorialEvent : FOXEvent
+@interface CYZFoxViewCategoryEvent : CYZFoxExtensionBaseEvent
 <
-FOXExFacebookEventDelegate,
-FOXExTwitterEventDelegate,
-FOXExDynalystGamesEventDelegate
+CYZFoxVizuryEventDelegate
 >
+
 
 /** @name Instance Method */
 
@@ -24,7 +23,7 @@ FOXExDynalystGamesEventDelegate
 
 /**
  * Create event with default eventName and specified ltvId.
- * @param ltvId         LTV identifier given by FOX
+ * @param ltvId         LTV identifier given by CYZFox
  */
 -(nullable instancetype) initWithLtvId:(NSUInteger) ltvId;
 

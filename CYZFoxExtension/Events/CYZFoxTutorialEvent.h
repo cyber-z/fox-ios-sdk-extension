@@ -1,21 +1,18 @@
 //
-//  FOXLevelAchievedEvent.h.h
-//  FOXExtension
+//  CYZFoxTutorialEvent.h
+//  CYZFoxExtension
 //
 //  Created by Wuwei on 2016/07/22.
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 
-#import "FOXExtensionBaseEvent.h"
+#import "CYZFoxExtensionBaseEvent.h"
 
-/**
- * event for level achieved
- */
-@interface FOXLevelAchievedEvent : FOXExtensionBaseEvent
+@interface CYZFoxTutorialEvent : CYZFoxExtensionBaseEvent
 <
-FOXExFacebookEventDelegate,
-FOXExTwitterEventDelegate,
-FOXExChartBoostEventDelegate
+CYZFoxFacebookEventDelegate,
+CYZFoxTwitterEventDelegate,
+CYZFoxDynalystGamesEventDelegate
 >
 
 /** @name Instance Method */
@@ -27,7 +24,7 @@ FOXExChartBoostEventDelegate
 
 /**
  * Create event with default eventName and specified ltvId.
- * @param ltvId         LTV identifier given by FOX
+ * @param ltvId         LTV identifier given by CYZFox
  */
 -(nullable instancetype) initWithLtvId:(NSUInteger) ltvId;
 

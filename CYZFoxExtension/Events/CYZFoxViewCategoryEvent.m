@@ -1,21 +1,21 @@
 //
-//  FOXSearchEvent.m
-//  FOXExtension
+//  CYZFoxViewCategoryEvent.m
+//  CYZFoxExtension
 //
 //  Created by Wuwei on 2016/08/02.
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 
-#import "FOXSearchEvent.h"
+#import "CYZFoxViewCategoryEvent.h"
 
-@implementation FOXSearchEvent
+@implementation CYZFoxViewCategoryEvent
 
 -(instancetype) init {
     return [self initWithLtvId:0];
 }
 
 -(instancetype) initWithLtvId:(NSUInteger) ltvId {
-    return [super initWithEventName:@"_search" andLtvId:ltvId];
+    return [super initWithEventName:@"_view_category" ltvId:ltvId];
 }
 
 @end

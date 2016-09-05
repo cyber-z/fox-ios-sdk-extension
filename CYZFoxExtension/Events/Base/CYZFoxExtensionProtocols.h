@@ -1,12 +1,12 @@
 //
 //  CooperationProtocols.h
-//  FOXExtension
+//  CYZFoxtension
 //
 //  Created by Wuwei on 2016/08/04.
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 #pragma mark - Facebook
-@protocol FOXExFacebookEventDelegate<NSObject>
+@protocol CYZFoxFacebookEventDelegate<NSObject>
 
 @optional
 -(void) setItemId:(nonnull NSString*) itemId;
@@ -16,7 +16,7 @@
 
 
 #pragma mark - Twitter
-@protocol FOXExTwitterEventDelegate<NSObject>
+@protocol CYZFoxTwitterEventDelegate<NSObject>
 
 @optional
 -(void) setItemId:(nonnull NSString*) itemId;
@@ -26,7 +26,7 @@
 
 
 #pragma mark - Criteo
-@protocol FOXExCriteoEventDelegate<NSObject>
+@protocol CYZFoxCriteoEventDelegate<NSObject>
 
 @optional
 -(void) setDestination:(nonnull NSString*) destination;
@@ -48,7 +48,7 @@
 
 
 #pragma mark - Vizury
-@protocol FOXExVizuryEventDelegate<NSObject>
+@protocol CYZFoxVizuryEventDelegate<NSObject>
 
 @optional
 -(void) setCategoryId:(nonnull NSString*) categoryId;
@@ -62,7 +62,7 @@
 
 
 #pragma mark - DynamicRemarketing
-@protocol FOXExDynamicRemarketingEventDelegate<NSObject>
+@protocol CYZFoxDynamicRemarketingEventDelegate<NSObject>
 
 @optional
 -(void) setDestination:(nonnull NSString*) destination;
@@ -82,7 +82,7 @@
 
 
 #pragma mark - DynalystGames
-@protocol FOXExDynalystGamesEventDelegate<NSObject>
+@protocol CYZFoxDynalystGamesEventDelegate<NSObject>
 
 @optional
 -(void) setDynalystAdvertiserId:(nonnull NSString*) advertiserId;
@@ -96,7 +96,7 @@
 
 
 #pragma mark - DynalystCommerce
-@protocol FOXExDynalystCommerceEventDelegate<NSObject>
+@protocol CYZFoxDynalystCommerceEventDelegate<NSObject>
 
 @optional
 -(void) setTransactionId:(nonnull NSString*) transactionId;
@@ -109,7 +109,7 @@
 
 
 #pragma mark - ChartBoost
-@protocol FOXExChartBoostEventDelegate<NSObject>
+@protocol CYZFoxChartBoostEventDelegate<NSObject>
 
 @optional
 -(void) setLocalizedTitle:(nonnull NSString*) localizedTitle;

@@ -1,30 +1,30 @@
 //
-//  FOXExtensionBaseEvent.m
-//  FOXExtension
+//  CYZFoxExtensionBaseEvent.m
+//  CYZFoxExtension
 //
 //  Created by Wuwei on 2016/08/02.
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 
-#import "FOXExtensionBaseEvent.h"
+#import "CYZFoxExtensionBaseEvent.h"
 
 #define kDateFormat @"yyyy-MM-dd"
 
-@interface FOXExtensionBaseEvent ()
+@interface CYZFoxExtensionBaseEvent ()
 <
-FOXExFacebookEventDelegate,
-FOXExTwitterEventDelegate,
-FOXExCriteoEventDelegate,
-FOXExVizuryEventDelegate,
-FOXExDynamicRemarketingEventDelegate,
-FOXExDynalystGamesEventDelegate,
-FOXExDynalystCommerceEventDelegate,
-FOXExChartBoostEventDelegate
+CYZFoxFacebookEventDelegate,
+CYZFoxTwitterEventDelegate,
+CYZFoxCriteoEventDelegate,
+CYZFoxVizuryEventDelegate,
+CYZFoxDynamicRemarketingEventDelegate,
+CYZFoxDynalystGamesEventDelegate,
+CYZFoxDynalystCommerceEventDelegate,
+CYZFoxChartBoostEventDelegate
 >
 
 @end
 
-@implementation FOXExtensionBaseEvent
+@implementation CYZFoxExtensionBaseEvent
 
 -(instancetype) initWithEventName:(NSString *) eventName andLtvId:(NSUInteger) ltvId
 {

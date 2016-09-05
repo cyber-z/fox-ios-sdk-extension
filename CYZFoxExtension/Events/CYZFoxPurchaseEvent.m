@@ -1,14 +1,14 @@
 //
-//  FOXPurchaseEvent.m
-//  FOXExtension
+//  CYZFoxPurchaseEvent.m
+//  CYZFoxExtension
 //
 //  Created by Wuwei on 2016/07/22.
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 
-#import "FOXPurchaseEvent.h"
+#import "CYZFoxPurchaseEvent.h"
 
-@implementation FOXPurchaseEvent
+@implementation CYZFoxPurchaseEvent
 
 -(instancetype) initWithTransaction:(SKPaymentTransaction *) transaction
                             product:(SKProduct *) product {
@@ -30,7 +30,7 @@
     [formatter setNumberStyle:NSNumberFormatterCurrencyStyle];
     [formatter setLocale:product.priceLocale];
     NSString *currency = [formatter currencyCode];
-    
+
     self = [self initWithLtvId:ltvId
                       itemName:product.localizedTitle
                            sku:product.productIdentifier
@@ -49,13 +49,13 @@
                         price:(double) price
                      quantity:(NSUInteger) quantity
                      currency:(nullable NSString*) currency {
-    self = [super initWithEventName:@"_purcase" andLtvId:ltvId];
+    self = [super initWithEventName:@"_purcase" ltvId:ltvId];
     if (self) {
         self.itemName = itemName;
         self.price = price;
         self.quantity = quantity;
         self.currency = currency;
-        
+
         if (ltvId > 0) {
             [self putJsonValue:@(ltvId) forKey:@"fox_cvpoint"];
         }

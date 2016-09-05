@@ -1,18 +1,18 @@
 //
-//  FOXExtensionBaseEvent.h
-//  FOXExtension
+//  CYZFoxExtensionBaseEvent.h
+//  CYZFoxExtension
 //
 //  Created by Wuwei on 2016/08/02.
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 
 #import <CYZFox/CYZFox.h>
-#import "FOXExtensionProtocols.h"
+#import "CYZFoxExtensionProtocols.h"
 
 /**
  * base event class, implements protocols of all medias
  */
-@interface FOXExtensionBaseEvent : CYZFoxEvent
+@interface CYZFoxExtensionBaseEvent : CYZFoxEvent
 
 /**
  * Add user identifier for event.

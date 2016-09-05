@@ -1,16 +1,17 @@
 //
-//  FOXSearchEvent.h
-//  FOXExtension
+//  CYZFoxViewToppageEvent.h
+//  CYZFoxExtension
 //
 //  Created by Wuwei on 2016/08/02.
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 
-#import "FOXExtensionBaseEvent.h"
+#import "CYZFoxExtensionBaseEvent.h"
 
-@interface FOXSearchEvent : FOXExtensionBaseEvent
+@interface CYZFoxViewToppageEvent : CYZFoxExtensionBaseEvent
 <
-FOXExDynamicRemarketingEventDelegate
+CYZFoxCriteoEventDelegate,
+CYZFoxVizuryEventDelegate
 >
 
 /** @name Instance Method */
@@ -22,7 +23,7 @@ FOXExDynamicRemarketingEventDelegate
 
 /**
  * Create event with default eventName and specified ltvId.
- * @param ltvId         LTV identifier given by FOX
+ * @param ltvId         LTV identifier given by CYZFox
  */
 -(nullable instancetype) initWithLtvId:(NSUInteger) ltvId;
 
