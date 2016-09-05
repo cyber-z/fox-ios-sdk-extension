@@ -6,13 +6,13 @@
 //  Copyright © 2016年 CyberZ. All rights reserved.
 //
 
-#import <FOXSDK/FOXSDK.h>
+#import <CYZFox/CYZFox.h>
 #import "FOXExtensionProtocols.h"
 
 /**
  * base event class, implements protocols of all medias
  */
-@interface FOXExtensionBaseEvent : FOXEvent
+@interface FOXExtensionBaseEvent : CYZFoxEvent
 
 /**
  * Add user identifier for event.

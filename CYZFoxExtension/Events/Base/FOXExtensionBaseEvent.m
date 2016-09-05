@@ -28,7 +28,7 @@ FOXExChartBoostEventDelegate
 
 -(instancetype) initWithEventName:(NSString *) eventName andLtvId:(NSUInteger) ltvId
 {
-    self = [super initWithEventName:eventName andLtvId:ltvId];
+    self = [super initWithEventName:eventName ltvId:ltvId];
     if (self) {
         self.eventInfo = [NSMutableDictionary dictionary];
     }
@@ -46,14 +46,14 @@ FOXExChartBoostEventDelegate
 -(void) addProductById:(NSString *) productId itemLocationId:(NSString *) itemLocationId price:(double) price quantity:(NSUInteger) quantity {
     if (productId) {
         NSMutableArray* productList = [self.eventInfo objectForKey:@"product"];
-        
+
         if (!productList) {
             productList = [NSMutableArray array];
         }
-        
+
         NSMutableDictionary* product = [NSMutableDictionary dictionary];
         [product setValue:productId forKey:@"id"];
-        
+
         if (itemLocationId) {
             [product setValue:itemLocationId forKey:@"item_location_id"];
         }
@@ -63,7 +63,7 @@ FOXExChartBoostEventDelegate
         if (quantity > 0) {
             [product setValue:@(quantity) forKey:@"quantity"];
         }
-        
+
         [productList addObject:product];
     }
 }
@@ -94,9 +94,9 @@ FOXExChartBoostEventDelegate
 #pragma mark - DynamicRemarketing
 +(void) setGoogleCrmId:(NSString *) crmId {
     if (crmId) {
-        NSMutableDictionary* userInfo = [NSMutableDictionary dictionaryWithDictionary:[FOXTrack getUserInfo]];
+        NSMutableDictionary* userInfo = [NSMutableDictionary dictionaryWithDictionary:[CYZFox getUserInfo]];
         [userInfo setObject:crmId forKey:@"_google_crm_id"];
-        [FOXTrack setUserInfo:userInfo];
+        [CYZFox setUserInfo:userInfo];
     }
 }
 
@@ -118,32 +118,32 @@ FOXExChartBoostEventDelegate
     [self putJsonValue:dout forKey:@"dout"];
 }
 
--(void)setSearchTerm:(NSString *)searchTerm {
+-(void) setSearchTerm:(NSString *) searchTerm {
     [self putJsonValue:searchTerm forKey:@"searchTerm"];
 }
 
 #pragma mark - DynalystGames
 +(void) setDynalystGuid:(NSString *) guid {
     if (guid) {
-        NSMutableDictionary* userInfo = [NSMutableDictionary dictionaryWithDictionary:[FOXTrack getUserInfo]];
+        NSMutableDictionary* userInfo = [NSMutableDictionary dictionaryWithDictionary:[CYZFox getUserInfo]];
         [userInfo setObject:guid forKey:@"guid"];
-        [FOXTrack setUserInfo:userInfo];
+        [CYZFox setUserInfo:userInfo];
     }
 }
 
 +(void) setDynalystAdnt:(NSString *) adnt {
     if (adnt) {
-        NSMutableDictionary* userInfo = [NSMutableDictionary dictionaryWithDictionary:[FOXTrack getUserInfo]];
+        NSMutableDictionary* userInfo = [NSMutableDictionary dictionaryWithDictionary:[CYZFox getUserInfo]];
         [userInfo setObject:adnt forKey:@"adnt"];
-        [FOXTrack setUserInfo:userInfo];
+        [CYZFox setUserInfo:userInfo];
     }
 }
 
 +(void) setDynalystExt:(NSDictionary *) extJson {
     if (extJson) {
-        NSMutableDictionary* userInfo = [NSMutableDictionary dictionaryWithDictionary:[FOXTrack getUserInfo]];
+        NSMutableDictionary* userInfo = [NSMutableDictionary dictionaryWithDictionary:[CYZFox getUserInfo]];
         [userInfo setObject:extJson forKey:@"ext"];
-        [FOXTrack setUserInfo:userInfo];
+        [CYZFox setUserInfo:userInfo];
     }
 }
 
@@ -174,36 +174,36 @@ FOXExChartBoostEventDelegate
     [self putJsonValue:receipt forKey:@"receipt"];
 }
 
--(void)addTrackInfoByEventLabel:(NSString *)eventLabel
-                     eventField:(double)eventField
-                      mainLevel:(double)mainLevel
-                       subLevel:(double)subLevel
-                    description:(NSString *)description
-                       dateType:(NSString *)dateType {
-    
+-(void) addTrackInfoByEventLabel:(NSString *) eventLabel
+                      eventField:(double) eventField
+                       mainLevel:(double) mainLevel
+                        subLevel:(double) subLevel
+                     description:(NSString *) description
+                        dateType:(NSString *) dateType {
+
     NSMutableArray* trackInfoList = [self.eventInfo objectForKey:@"trackInfo"];
-    
+
     if (!trackInfoList) {
         trackInfoList = [NSMutableArray array];
     }
-    
+
     NSMutableDictionary* trackInfo = [NSMutableDictionary dictionary];
     if (eventLabel) {
         [trackInfo setValue:eventLabel forKey:@"eventLabel"];
     }
-    
+
     [trackInfo setValue:@(eventField) forKey:@"eventField"];
     [trackInfo setValue:@(mainLevel) forKey:@"mainLevel"];
     [trackInfo setValue:@(subLevel) forKey:@"subLevel"];
-    
+
     if (description) {
         [trackInfo setValue:description forKey:@"description"];
     }
-    
+
     if (dateType) {
         [trackInfo setValue:dateType forKey:@"dateType"];
     }
-    
+
     [trackInfoList addObject:trackInfo];
 }
 
