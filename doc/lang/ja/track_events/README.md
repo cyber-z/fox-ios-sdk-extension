@@ -105,7 +105,7 @@ event.orderId = @"orderId";
 > #### 2. [ViewListing(複数商品閲覧)イベント](./02_view_listing/README.md)
 > #### 3. [ViewProduct(商品閲覧)イベント](./03_view_product/README.md)
 > #### 4. [AddToCart(買い物かご閲覧)イベント](./04_add_to_cart/README.md)
-> #### 5. [TrackTransaction(商品購入)イベント](./05_track_transaction/README.md)
+> #### 5. [Purchase(商品購入)イベント](./05_track_transaction/README.md)
 > #### 6. [AchieveLevel(レベルアップ)イベント](./06_achieve_level/README.md)
 > #### 7. [ViewCategory(カテゴリページ)イベント](./07_view_category/README.md)
 > #### 8. [TutorialCompletion(チュートリアル)イベント](./08_tutorial_completion/README.md)

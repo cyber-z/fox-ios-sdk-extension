@@ -61,10 +61,10 @@ github "cyber-z/fox-ios-sdk-extension" == <VERSION>
 プラグインでサポートしているアプリ内イベントは以下の通りです。
 
 > #### 1. [ViewToppage(ホーム画面表示)イベント](./track_events/01_view_toppage/README.md)
-> #### 2. [ViewProduct(商品閲覧)イベント](./track_events/02_view_product/README.md)
-> #### 3. [ViewListing(複数商品閲覧)イベント](./track_events/03_view_listing/README.md)
+> #### 2. [ViewListing(複数商品閲覧)イベント](./track_events/02_view_listing/README.md)
+> #### 3. [ViewProduct(商品閲覧)イベント](./track_events/03_view_product/README.md)
 > #### 4. [AddToCart(買い物かご閲覧)イベント](./track_events/04_add_to_cart/README.md)
-> #### 5. [TrackTransaction(商品購入)イベント](./track_events/05_track_transaction/README.md)
+> #### 5. [Purchase(商品購入)イベント](./track_events/05_track_transaction/README.md)
 > #### 6. [AchieveLevel(レベルアップ)イベント](./track_events/06_achieve_level/README.md)
 > #### 7. [ViewCategory(カテゴリページ)イベント](./track_events/07_view_category/README.md)
 > #### 8. [TutorialCompletion(チュートリアル)イベント](./track_events/08_tutorial_completion/README.md)
