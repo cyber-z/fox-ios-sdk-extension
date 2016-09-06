@@ -14,7 +14,7 @@ FOUNDATION_EXPORT double CYZFoxExtensionVersionNumber;
 //! Project version string for CYZFoxExtension.
 FOUNDATION_EXPORT const unsigned char CYZFoxExtensionVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <CYZFoxtension/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <CYZFoxExt/PublicHeader.h>
 
 
 #import "CYZFoxAddToCartEvent.h"
