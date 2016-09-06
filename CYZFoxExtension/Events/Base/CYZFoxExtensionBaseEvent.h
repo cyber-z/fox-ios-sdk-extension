@@ -23,6 +23,8 @@
 
 /**
  * put JSON Key-Value to event
+ * @param value Value of JSON
+ * @param key Key of JSON
  */
 -(void) putJsonValue:(nonnull id) value forKey:(nonnull NSString*) key;
 
