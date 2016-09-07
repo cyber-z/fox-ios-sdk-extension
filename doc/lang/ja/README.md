@@ -30,7 +30,7 @@ Podfileに以下の設定を追加します。
 source "https://github.com/cyber-z/public-fox-ios-sdk.git"
 
 # 下記を指定したいターゲットに追加してください
-pod "CYZFoxExt", "<VERSION>"
+pod "CYZFoxExt", :git => 'https://github.com/cyber-z/fox-ios-sdk-extension.git', :tag => '<VERSION>'
 ```
 
 * **iOS Swiftでdynamic frameworkを利用する場合**
@@ -40,8 +40,8 @@ source "https://github.com/cyber-z/public-fox-ios-sdk.git"
 
 # dynamic frameworkを有効に
 use_frameworks!
-
-pod "CYZFoxExtDy", "<VERSION>"
+:git => 'https://github.com/cyber-z/fox-ios-sdk-extension.git', :tag => '<VERSION>'
+pod "CYZFoxExtDy", :git => 'https://github.com/cyber-z/fox-ios-sdk-extension.git', :tag => '<VERSION>'
 ```
 
 ### 2.2 Carthageによる導入
