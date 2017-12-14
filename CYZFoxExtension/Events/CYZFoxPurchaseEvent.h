@@ -32,7 +32,7 @@ CYZFoxChartBoostEventDelegate
  * @param transaction   StoreKit payment transaction
  * @param product       StoreKit product detail
  */
--(nullable instancetype) initWithTransaction:(SKPaymentTransaction* _Nonnull) transaction
+-(nonnull instancetype) initWithTransaction:(SKPaymentTransaction* _Nonnull) transaction
                                      product:(SKProduct* _Nonnull) product;
 
 /**
@@ -41,7 +41,7 @@ CYZFoxChartBoostEventDelegate
  * @param transaction   StoreKit payment transaction
  * @param product       StoreKit product detail
  */
--(nullable instancetype) initWithLtvId:(NSUInteger) ltvId
+-(nonnull instancetype) initWithLtvId:(NSUInteger) ltvId
                            transaction:(SKPaymentTransaction* _Nonnull) transaction
                                product:(SKProduct* _Nonnull) product;
 
@@ -52,7 +52,7 @@ CYZFoxChartBoostEventDelegate
  * @param price         Price
  * @param currency      Currency
  */
--(nullable instancetype) initWithItemName:(nullable NSString*) itemName
+-(nonnull instancetype) initWithItemName:(nullable NSString*) itemName
                                       sku:(nonnull NSString*) sku
                                     price:(double) price
                                  quantity:(NSUInteger) quantity
@@ -66,7 +66,7 @@ CYZFoxChartBoostEventDelegate
  * @param price         Price
  * @param currency      Currency
  */
--(nullable instancetype) initWithLtvId:(NSUInteger) ltvId
+-(nonnull instancetype) initWithLtvId:(NSUInteger) ltvId
                               itemName:(nullable NSString*) itemName
                                    sku:(nonnull NSString*) sku
                                  price:(double) price
