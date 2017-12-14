@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CYZFoxExtDy"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "FOX iOS SDK extension for global use."
   s.description      = <<-DESC
                        Pod integration for F.O.X SDK
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = "Foundation", "StoreKit"
 
-  s.ios.dependency "CYZFoxDy", "4.0.0"
-  s.tvos.dependency "CYZFoxTvDy", "4.0.0"
+  s.ios.dependency "CYZFoxDy", "~> 4.0.0"
+  s.tvos.dependency "CYZFoxTvDy", "~> 4.0.0"
 
 end

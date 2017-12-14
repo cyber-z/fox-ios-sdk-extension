@@ -19,12 +19,12 @@ CYZFoxVizuryEventDelegate
 /**
  * Create event with default eventName and no ltvId.
  */
--(nullable instancetype) init;
+-(nonnull instancetype) init;
 
 /**
  * Create event with default eventName and specified ltvId.
  * @param ltvId         LTV identifier given by CYZFox
  */
--(nullable instancetype) initWithLtvId:(NSUInteger) ltvId;
+-(nonnull instancetype) initWithLtvId:(NSUInteger) ltvId;
 
 @end
