@@ -40,7 +40,6 @@ source "https://github.com/cyber-z/public-fox-ios-sdk.git"
 
 # dynamic frameworkを有効に
 use_frameworks!
-:git => 'https://github.com/cyber-z/fox-ios-sdk-extension.git', :tag => '<VERSION>'
 pod "CYZFoxExtDy", :git => 'https://github.com/cyber-z/fox-ios-sdk-extension.git', :tag => '<VERSION>'
 ```
 
